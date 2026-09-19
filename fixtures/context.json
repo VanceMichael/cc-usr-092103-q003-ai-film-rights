@@ -1,0 +1,10 @@
+{
+  "domain": "ai-film-rights",
+  "version": 1,
+  "facts": [
+    "创作分为培训、命题、评选、展映和孵化",
+    "团队由不同专业学生组成",
+    "作品会使用AI演员与分镜工具"
+  ],
+  "sample_id": "sample-003"
+}
