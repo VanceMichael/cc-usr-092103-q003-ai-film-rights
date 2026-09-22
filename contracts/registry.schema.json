@@ -1,0 +1,233 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "素材权利登记：作品、版本、素材、模型、许可声明、撤回、上传与盲评提交",
+  "type": "object",
+  "required": ["domain", "version", "works", "versions", "assets", "models", "claims", "uploads", "blind_submissions"],
+  "additionalProperties": false,
+  "properties": {
+    "domain": { "const": "ai-film-rights" },
+    "version": { "type": "integer", "minimum": 1 },
+    "as_of": { "type": "string", "format": "date", "description": "评估基准日；期限与撤回按此日判定" },
+    "works": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/work" }
+    },
+    "versions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/version" }
+    },
+    "assets": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/asset" }
+    },
+    "models": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/model" }
+    },
+    "claims": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/claim" }
+    },
+    "revocations": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/revocation" }
+    },
+    "uploads": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/upload" }
+    },
+    "blind_submissions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/blind_submission" }
+    }
+  },
+  "$defs": {
+    "work": {
+      "type": "object",
+      "required": ["id", "team_id", "title", "current_release_id", "stage_entries"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^wk-" },
+        "team_id": { "type": "string", "pattern": "^tm-" },
+        "title": { "type": "string", "minLength": 1 },
+        "current_release_id": { "type": "string", "pattern": "^v-", "description": "拟对外发布的版本；闸门针对该版本评估" },
+        "stage_entries": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["stage_id", "version_id", "entered_on"],
+            "additionalProperties": false,
+            "properties": {
+              "stage_id": { "type": "string", "pattern": "^sg-" },
+              "version_id": { "type": "string", "pattern": "^v-" },
+              "entered_on": { "type": "string", "format": "date" }
+            }
+          }
+        }
+      }
+    },
+    "version": {
+      "type": "object",
+      "required": ["id", "work_id", "seq", "label", "parents", "asset_ids", "created_on", "created_by"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^v-" },
+        "work_id": { "type": "string", "pattern": "^wk-" },
+        "seq": { "type": "integer", "minimum": 1 },
+        "label": { "type": "string", "minLength": 1 },
+        "parents": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^v-" },
+          "description": "派生来源版本；空数组表示初始版本。多父版本=并行修订合并点"
+        },
+        "asset_ids": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^as-" }
+        },
+        "created_on": { "type": "string", "format": "date" },
+        "created_by": { "type": "string", "pattern": "^st-" },
+        "branch": { "type": ["string", "null"], "description": "并行修订分支名；主干为 null" }
+      }
+    },
+    "asset": {
+      "type": "object",
+      "required": ["id", "type", "title", "fingerprint", "restricted", "source"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^as-" },
+        "type": {
+          "enum": ["ai_performer", "music", "training_data", "live_footage", "storyboard_output", "generated_shot", "voice_clip", "other"]
+        },
+        "title": { "type": "string", "minLength": 1 },
+        "fingerprint": { "type": "string", "minLength": 8, "description": "内容指纹（哈希）；重复上传据此识别" },
+        "restricted": { "type": "boolean", "description": "受限素材：禁止混入任何公开版本" },
+        "restriction_note": { "type": ["string", "null"] },
+        "source": {
+          "type": "object",
+          "required": ["kind"],
+          "additionalProperties": false,
+          "properties": {
+            "kind": { "enum": ["ai_platform", "music_library", "student_original", "external_archive", "field_shoot", "dataset"] },
+            "model_id": { "type": ["string", "null"], "pattern": "^md-" },
+            "provider": { "type": ["string", "null"] },
+            "shot_by": { "type": ["string", "null"], "pattern": "^st-" },
+            "performed_by": { "type": ["string", "null"], "pattern": "^st-", "description": "实拍/配音演员（学生），退出后贡献保留" }
+          }
+        },
+        "derived_from_asset_ids": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^as-" },
+          "description": "素材级派生：AI演员基于训练素材、生成镜头基于分镜输出等"
+        }
+      }
+    },
+    "model": {
+      "type": "object",
+      "required": ["id", "name", "vendor", "terms_version"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^md-" },
+        "name": { "type": "string" },
+        "vendor": { "type": "string" },
+        "terms_version": { "type": "string", "description": "入库时锁定的平台条款版本" },
+        "terms_summary": { "type": "string" }
+      }
+    },
+    "claim": {
+      "type": "object",
+      "required": [
+        "id",
+        "asset_id",
+        "licensor",
+        "purposes",
+        "regions",
+        "term_start",
+        "term_end",
+        "revocable",
+        "basis",
+        "declared_on",
+        "status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^cl-" },
+        "asset_id": { "type": "string", "pattern": "^as-" },
+        "licensor": {
+          "type": "object",
+          "required": ["kind", "name"],
+          "additionalProperties": false,
+          "properties": {
+            "kind": { "enum": ["学生本人", "学生团队", "院校", "平台方", "音乐版权方", "素材档案方", "数据集提供方"] },
+            "name": { "type": "string" },
+            "student_id": { "type": ["string", "null"], "pattern": "^st-" }
+          }
+        },
+        "purposes": {
+          "type": "array",
+          "items": { "enum": ["课堂教学", "非商业展映", "商业展映", "商业推广", "招聘评审", "融资路演", "影展参评"] },
+          "minItems": 1
+        },
+        "regions": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "term_start": { "type": "string", "format": "date" },
+        "term_end": { "type": "string", "format": "date" },
+        "revocable": { "type": "boolean" },
+        "revocation_conditions": { "type": "string", "description": "撤回条件的文字约定" },
+        "basis": { "type": "string", "description": "权利依据：课堂协议/平台条款快照/授权书/数据集许可" },
+        "declared_on": { "type": "string", "format": "date" },
+        "status": { "enum": ["有效", "已被取代", "已撤回"] },
+        "superseded_by": { "type": ["string", "null"], "pattern": "^cl-" }
+      }
+    },
+    "revocation": {
+      "type": "object",
+      "required": ["id", "claim_id", "effective_on", "reason"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^rv-" },
+        "claim_id": { "type": "string", "pattern": "^cl-" },
+        "effective_on": { "type": "string", "format": "date" },
+        "reason": { "type": "string" }
+      }
+    },
+    "upload": {
+      "type": "object",
+      "required": ["id", "asset_id", "fingerprint", "version_id", "uploaded_by", "uploaded_on"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^up-" },
+        "asset_id": { "type": "string", "pattern": "^as-" },
+        "fingerprint": { "type": "string" },
+        "version_id": { "type": "string", "pattern": "^v-" },
+        "uploaded_by": { "type": "string", "pattern": "^st-" },
+        "uploaded_on": { "type": "string", "format": "date-time" },
+        "note": { "type": ["string", "null"] }
+      }
+    },
+    "blind_submission": {
+      "type": "object",
+      "required": ["id", "work_id", "version_id", "stage_id", "submitted_on", "identity_leaks"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^bs-" },
+        "work_id": { "type": "string", "pattern": "^wk-" },
+        "version_id": { "type": "string", "pattern": "^v-" },
+        "stage_id": { "type": "string", "pattern": "^sg-" },
+        "submitted_on": { "type": "string", "format": "date" },
+        "identity_leaks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["asset_id", "leak_kind", "detail"],
+            "additionalProperties": false,
+            "properties": {
+              "asset_id": { "type": "string", "pattern": "^as-" },
+              "leak_kind": { "enum": ["院校标识", "作者署名", "人声可辨识", "元数据残留"] },
+              "detail": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

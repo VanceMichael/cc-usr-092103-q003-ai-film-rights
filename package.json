@@ -4,6 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "generate": "node scripts/generate-fixtures.mjs",
+    "report": "node scripts/gate-report.mjs",
     "test": "node --test"
   }
 }

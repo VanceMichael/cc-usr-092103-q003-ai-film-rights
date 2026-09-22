@@ -1,0 +1,1740 @@
+{
+  "domain": "ai-film-rights",
+  "version": 1,
+  "cohort": {
+    "id": "co-2026s",
+    "name": "2026春季AI影视创作营",
+    "started_on": "2026-03-02",
+    "student_quota": 84,
+    "team_quota": 33
+  },
+  "students": [
+    {
+      "id": "st-001",
+      "code": "学员编号001",
+      "major": "导演",
+      "team_id": "tm-01",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-002",
+      "code": "学员编号002",
+      "major": "编剧",
+      "team_id": "tm-01",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-003",
+      "code": "学员编号003",
+      "major": "摄影",
+      "team_id": "tm-01",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-004",
+      "code": "学员编号004",
+      "major": "美术",
+      "team_id": "tm-02",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-005",
+      "code": "学员编号005",
+      "major": "表演",
+      "team_id": "tm-02",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-006",
+      "code": "学员编号006",
+      "major": "动画",
+      "team_id": "tm-02",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-007",
+      "code": "学员编号007",
+      "major": "声音设计",
+      "team_id": "tm-03",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-008",
+      "code": "学员编号008",
+      "major": "音乐",
+      "team_id": "tm-03",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-009",
+      "code": "学员编号009",
+      "major": "数字媒体",
+      "team_id": "tm-03",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-010",
+      "code": "学员编号010",
+      "major": "人工智能",
+      "team_id": "tm-04",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-011",
+      "code": "学员编号011",
+      "major": "法学",
+      "team_id": "tm-04",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-012",
+      "code": "学员编号012",
+      "major": "市场营销",
+      "team_id": "tm-04",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-013",
+      "code": "学员编号013",
+      "major": "导演",
+      "team_id": "tm-05",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-014",
+      "code": "学员编号014",
+      "major": "编剧",
+      "team_id": "tm-05",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-015",
+      "code": "学员编号015",
+      "major": "摄影",
+      "team_id": "tm-05",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-016",
+      "code": "学员编号016",
+      "major": "美术",
+      "team_id": "tm-06",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-017",
+      "code": "学员编号017",
+      "major": "表演",
+      "team_id": "tm-06",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-018",
+      "code": "学员编号018",
+      "major": "动画",
+      "team_id": "tm-06",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-019",
+      "code": "学员编号019",
+      "major": "声音设计",
+      "team_id": "tm-07",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-020",
+      "code": "学员编号020",
+      "major": "音乐",
+      "team_id": "tm-07",
+      "status": "已退出",
+      "exited_on": "2026-05-30",
+      "exit_note": "个人原因退出，已签署贡献与配音许可保留确认"
+    },
+    {
+      "id": "st-021",
+      "code": "学员编号021",
+      "major": "数字媒体",
+      "team_id": "tm-07",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-022",
+      "code": "学员编号022",
+      "major": "人工智能",
+      "team_id": "tm-08",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-023",
+      "code": "学员编号023",
+      "major": "法学",
+      "team_id": "tm-08",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-024",
+      "code": "学员编号024",
+      "major": "市场营销",
+      "team_id": "tm-08",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-025",
+      "code": "学员编号025",
+      "major": "导演",
+      "team_id": "tm-09",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-026",
+      "code": "学员编号026",
+      "major": "编剧",
+      "team_id": "tm-09",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-027",
+      "code": "学员编号027",
+      "major": "摄影",
+      "team_id": "tm-09",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-028",
+      "code": "学员编号028",
+      "major": "美术",
+      "team_id": "tm-10",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-029",
+      "code": "学员编号029",
+      "major": "表演",
+      "team_id": "tm-10",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-030",
+      "code": "学员编号030",
+      "major": "动画",
+      "team_id": "tm-10",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-031",
+      "code": "学员编号031",
+      "major": "声音设计",
+      "team_id": "tm-11",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-032",
+      "code": "学员编号032",
+      "major": "音乐",
+      "team_id": "tm-11",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-033",
+      "code": "学员编号033",
+      "major": "数字媒体",
+      "team_id": "tm-11",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-034",
+      "code": "学员编号034",
+      "major": "人工智能",
+      "team_id": "tm-12",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-035",
+      "code": "学员编号035",
+      "major": "法学",
+      "team_id": "tm-12",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-036",
+      "code": "学员编号036",
+      "major": "市场营销",
+      "team_id": "tm-12",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-037",
+      "code": "学员编号037",
+      "major": "导演",
+      "team_id": "tm-13",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-038",
+      "code": "学员编号038",
+      "major": "编剧",
+      "team_id": "tm-13",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-039",
+      "code": "学员编号039",
+      "major": "摄影",
+      "team_id": "tm-13",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-040",
+      "code": "学员编号040",
+      "major": "美术",
+      "team_id": "tm-14",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-041",
+      "code": "学员编号041",
+      "major": "表演",
+      "team_id": "tm-14",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-042",
+      "code": "学员编号042",
+      "major": "动画",
+      "team_id": "tm-14",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-043",
+      "code": "学员编号043",
+      "major": "声音设计",
+      "team_id": "tm-15",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-044",
+      "code": "学员编号044",
+      "major": "音乐",
+      "team_id": "tm-15",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-045",
+      "code": "学员编号045",
+      "major": "数字媒体",
+      "team_id": "tm-15",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-046",
+      "code": "学员编号046",
+      "major": "人工智能",
+      "team_id": "tm-16",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-047",
+      "code": "学员编号047",
+      "major": "法学",
+      "team_id": "tm-16",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-048",
+      "code": "学员编号048",
+      "major": "市场营销",
+      "team_id": "tm-16",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-049",
+      "code": "学员编号049",
+      "major": "导演",
+      "team_id": "tm-17",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-050",
+      "code": "学员编号050",
+      "major": "编剧",
+      "team_id": "tm-17",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-051",
+      "code": "学员编号051",
+      "major": "摄影",
+      "team_id": "tm-17",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-052",
+      "code": "学员编号052",
+      "major": "美术",
+      "team_id": "tm-18",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-053",
+      "code": "学员编号053",
+      "major": "表演",
+      "team_id": "tm-18",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-054",
+      "code": "学员编号054",
+      "major": "动画",
+      "team_id": "tm-18",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-055",
+      "code": "学员编号055",
+      "major": "声音设计",
+      "team_id": "tm-19",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-056",
+      "code": "学员编号056",
+      "major": "音乐",
+      "team_id": "tm-19",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-057",
+      "code": "学员编号057",
+      "major": "数字媒体",
+      "team_id": "tm-20",
+      "status": "已退出",
+      "exited_on": "2026-04-20",
+      "exit_note": "转专业退出，课堂贡献保留"
+    },
+    {
+      "id": "st-058",
+      "code": "学员编号058",
+      "major": "人工智能",
+      "team_id": "tm-20",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-059",
+      "code": "学员编号059",
+      "major": "法学",
+      "team_id": "tm-21",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-060",
+      "code": "学员编号060",
+      "major": "市场营销",
+      "team_id": "tm-21",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-061",
+      "code": "学员编号061",
+      "major": "导演",
+      "team_id": "tm-22",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-062",
+      "code": "学员编号062",
+      "major": "编剧",
+      "team_id": "tm-22",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-063",
+      "code": "学员编号063",
+      "major": "摄影",
+      "team_id": "tm-23",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-064",
+      "code": "学员编号064",
+      "major": "美术",
+      "team_id": "tm-23",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-065",
+      "code": "学员编号065",
+      "major": "表演",
+      "team_id": "tm-24",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-066",
+      "code": "学员编号066",
+      "major": "动画",
+      "team_id": "tm-24",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-067",
+      "code": "学员编号067",
+      "major": "声音设计",
+      "team_id": "tm-25",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-068",
+      "code": "学员编号068",
+      "major": "音乐",
+      "team_id": "tm-25",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-069",
+      "code": "学员编号069",
+      "major": "数字媒体",
+      "team_id": "tm-26",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-070",
+      "code": "学员编号070",
+      "major": "人工智能",
+      "team_id": "tm-26",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-071",
+      "code": "学员编号071",
+      "major": "法学",
+      "team_id": "tm-27",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-072",
+      "code": "学员编号072",
+      "major": "市场营销",
+      "team_id": "tm-27",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-073",
+      "code": "学员编号073",
+      "major": "导演",
+      "team_id": "tm-28",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-074",
+      "code": "学员编号074",
+      "major": "编剧",
+      "team_id": "tm-28",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-075",
+      "code": "学员编号075",
+      "major": "摄影",
+      "team_id": "tm-29",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-076",
+      "code": "学员编号076",
+      "major": "美术",
+      "team_id": "tm-29",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-077",
+      "code": "学员编号077",
+      "major": "表演",
+      "team_id": "tm-30",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-078",
+      "code": "学员编号078",
+      "major": "动画",
+      "team_id": "tm-30",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-079",
+      "code": "学员编号079",
+      "major": "声音设计",
+      "team_id": "tm-31",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-080",
+      "code": "学员编号080",
+      "major": "音乐",
+      "team_id": "tm-31",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-081",
+      "code": "学员编号081",
+      "major": "数字媒体",
+      "team_id": "tm-32",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-082",
+      "code": "学员编号082",
+      "major": "人工智能",
+      "team_id": "tm-32",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-083",
+      "code": "学员编号083",
+      "major": "法学",
+      "team_id": "tm-33",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    },
+    {
+      "id": "st-084",
+      "code": "学员编号084",
+      "major": "市场营销",
+      "team_id": "tm-33",
+      "status": "在队",
+      "exited_on": null,
+      "exit_note": null
+    }
+  ],
+  "teams": [
+    {
+      "id": "tm-01",
+      "name": "第01组",
+      "city_brief": "成都：夜归人的十五分钟",
+      "members": [
+        {
+          "student_id": "st-001",
+          "role": "导演",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "导演方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-002",
+          "role": "编剧",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "编剧方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-003",
+          "role": "摄影",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "摄影方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-02",
+      "name": "第02组",
+      "city_brief": "杭州：一条河的两岸",
+      "members": [
+        {
+          "student_id": "st-004",
+          "role": "美术",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "美术方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-005",
+          "role": "表演",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "表演方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-006",
+          "role": "动画",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "动画方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-03",
+      "name": "第03组",
+      "city_brief": "西安：看不见的邻居",
+      "members": [
+        {
+          "student_id": "st-007",
+          "role": "声音",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "声音设计方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-008",
+          "role": "作曲",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "音乐方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-009",
+          "role": "技术",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "数字媒体方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-04",
+      "name": "第04组",
+      "city_brief": "重庆：旧城新声",
+      "members": [
+        {
+          "student_id": "st-010",
+          "role": "技术",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "人工智能方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-011",
+          "role": "法务联络",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "法学方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-012",
+          "role": "制片",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "市场营销方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-05",
+      "name": "第05组",
+      "city_brief": "长沙：信号中断之后",
+      "members": [
+        {
+          "student_id": "st-013",
+          "role": "导演",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "导演方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-014",
+          "role": "编剧",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "编剧方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-015",
+          "role": "摄影",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "摄影方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-06",
+      "name": "第06组",
+      "city_brief": "厦门：雨天时刻表",
+      "members": [
+        {
+          "student_id": "st-016",
+          "role": "美术",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "美术方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-017",
+          "role": "表演",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "表演方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-018",
+          "role": "动画",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "动画方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-07",
+      "name": "第07组",
+      "city_brief": "青岛：夜归人的十五分钟",
+      "members": [
+        {
+          "student_id": "st-019",
+          "role": "声音",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "声音设计方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-020",
+          "role": "作曲",
+          "joined_on": "2026-03-02",
+          "left_on": "2026-05-30",
+          "contribution": "AI演员中之人参考表演与旁白配音（as-07-vc），权属登记 cl-07-vc 继续有效"
+        },
+        {
+          "student_id": "st-021",
+          "role": "技术",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "数字媒体方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-08",
+      "name": "第08组",
+      "city_brief": "苏州：一条河的两岸",
+      "members": [
+        {
+          "student_id": "st-022",
+          "role": "技术",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "人工智能方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-023",
+          "role": "法务联络",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "法学方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-024",
+          "role": "制片",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "市场营销方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-09",
+      "name": "第09组",
+      "city_brief": "武汉：看不见的邻居",
+      "members": [
+        {
+          "student_id": "st-025",
+          "role": "导演",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "导演方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-026",
+          "role": "编剧",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "编剧方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-027",
+          "role": "摄影",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "摄影方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-10",
+      "name": "第10组",
+      "city_brief": "南京：旧城新声",
+      "members": [
+        {
+          "student_id": "st-028",
+          "role": "美术",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "美术方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-029",
+          "role": "表演",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "表演方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-030",
+          "role": "动画",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "动画方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-11",
+      "name": "第11组",
+      "city_brief": "广州：信号中断之后",
+      "members": [
+        {
+          "student_id": "st-031",
+          "role": "声音",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "声音设计方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-032",
+          "role": "作曲",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "音乐方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-033",
+          "role": "技术",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "数字媒体方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-12",
+      "name": "第12组",
+      "city_brief": "天津：雨天时刻表",
+      "members": [
+        {
+          "student_id": "st-034",
+          "role": "技术",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "人工智能方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-035",
+          "role": "法务联络",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "法学方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-036",
+          "role": "制片",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "市场营销方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-13",
+      "name": "第13组",
+      "city_brief": "成都：夜归人的十五分钟",
+      "members": [
+        {
+          "student_id": "st-037",
+          "role": "导演",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "导演方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-038",
+          "role": "编剧",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "编剧方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-039",
+          "role": "摄影",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "摄影方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-14",
+      "name": "第14组",
+      "city_brief": "杭州：一条河的两岸",
+      "members": [
+        {
+          "student_id": "st-040",
+          "role": "美术",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "美术方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-041",
+          "role": "表演",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "表演方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-042",
+          "role": "动画",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "动画方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-15",
+      "name": "第15组",
+      "city_brief": "西安：看不见的邻居",
+      "members": [
+        {
+          "student_id": "st-043",
+          "role": "声音",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "声音设计方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-044",
+          "role": "作曲",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "音乐方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-045",
+          "role": "技术",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "数字媒体方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-16",
+      "name": "第16组",
+      "city_brief": "重庆：旧城新声",
+      "members": [
+        {
+          "student_id": "st-046",
+          "role": "技术",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "人工智能方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-047",
+          "role": "法务联络",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "法学方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-048",
+          "role": "制片",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "市场营销方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-17",
+      "name": "第17组",
+      "city_brief": "长沙：信号中断之后",
+      "members": [
+        {
+          "student_id": "st-049",
+          "role": "导演",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "导演方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-050",
+          "role": "编剧",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "编剧方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-051",
+          "role": "摄影",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "摄影方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-18",
+      "name": "第18组",
+      "city_brief": "厦门：雨天时刻表",
+      "members": [
+        {
+          "student_id": "st-052",
+          "role": "美术",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "美术方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-053",
+          "role": "表演",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "表演方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-054",
+          "role": "动画",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "动画方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-19",
+      "name": "第19组",
+      "city_brief": "青岛：夜归人的十五分钟",
+      "members": [
+        {
+          "student_id": "st-055",
+          "role": "声音",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "声音设计方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-056",
+          "role": "作曲",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "音乐方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-20",
+      "name": "第20组",
+      "city_brief": "苏州：一条河的两岸",
+      "members": [
+        {
+          "student_id": "st-057",
+          "role": "技术",
+          "joined_on": "2026-03-02",
+          "left_on": "2026-04-20",
+          "contribution": "命题阶段美术分镜（已并入 v-20-02）"
+        },
+        {
+          "student_id": "st-058",
+          "role": "技术",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "人工智能方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-21",
+      "name": "第21组",
+      "city_brief": "武汉：看不见的邻居",
+      "members": [
+        {
+          "student_id": "st-059",
+          "role": "法务联络",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "法学方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-060",
+          "role": "制片",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "市场营销方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-22",
+      "name": "第22组",
+      "city_brief": "南京：旧城新声",
+      "members": [
+        {
+          "student_id": "st-061",
+          "role": "导演",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "导演方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-062",
+          "role": "编剧",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "编剧方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-23",
+      "name": "第23组",
+      "city_brief": "广州：信号中断之后",
+      "members": [
+        {
+          "student_id": "st-063",
+          "role": "摄影",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "摄影方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-064",
+          "role": "美术",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "美术方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-24",
+      "name": "第24组",
+      "city_brief": "天津：雨天时刻表",
+      "members": [
+        {
+          "student_id": "st-065",
+          "role": "表演",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "表演方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-066",
+          "role": "动画",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "动画方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-25",
+      "name": "第25组",
+      "city_brief": "成都：夜归人的十五分钟",
+      "members": [
+        {
+          "student_id": "st-067",
+          "role": "声音",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "声音设计方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-068",
+          "role": "作曲",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "音乐方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-26",
+      "name": "第26组",
+      "city_brief": "杭州：一条河的两岸",
+      "members": [
+        {
+          "student_id": "st-069",
+          "role": "技术",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "数字媒体方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-070",
+          "role": "技术",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "人工智能方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-27",
+      "name": "第27组",
+      "city_brief": "西安：看不见的邻居",
+      "members": [
+        {
+          "student_id": "st-071",
+          "role": "法务联络",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "法学方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-072",
+          "role": "制片",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "市场营销方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-28",
+      "name": "第28组",
+      "city_brief": "重庆：旧城新声",
+      "members": [
+        {
+          "student_id": "st-073",
+          "role": "导演",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "导演方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-074",
+          "role": "编剧",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "编剧方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-29",
+      "name": "第29组",
+      "city_brief": "长沙：信号中断之后",
+      "members": [
+        {
+          "student_id": "st-075",
+          "role": "摄影",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "摄影方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-076",
+          "role": "美术",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "美术方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-30",
+      "name": "第30组",
+      "city_brief": "厦门：雨天时刻表",
+      "members": [
+        {
+          "student_id": "st-077",
+          "role": "表演",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "表演方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-078",
+          "role": "动画",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "动画方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-31",
+      "name": "第31组",
+      "city_brief": "青岛：夜归人的十五分钟",
+      "members": [
+        {
+          "student_id": "st-079",
+          "role": "声音",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "声音设计方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-080",
+          "role": "作曲",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "音乐方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-32",
+      "name": "第32组",
+      "city_brief": "苏州：一条河的两岸",
+      "members": [
+        {
+          "student_id": "st-081",
+          "role": "技术",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "数字媒体方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-082",
+          "role": "技术",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "人工智能方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    },
+    {
+      "id": "tm-33",
+      "name": "第33组",
+      "city_brief": "武汉：看不见的邻居",
+      "members": [
+        {
+          "student_id": "st-083",
+          "role": "法务联络",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "法学方向创作分工（见版本署名与上传记录）"
+        },
+        {
+          "student_id": "st-084",
+          "role": "制片",
+          "joined_on": "2026-03-02",
+          "left_on": null,
+          "contribution": "市场营销方向创作分工（见版本署名与上传记录）"
+        }
+      ]
+    }
+  ],
+  "stages": [
+    {
+      "id": "sg-training",
+      "key": "training",
+      "name": "AI创作培训",
+      "order": 1,
+      "window_start": "2026-03-02",
+      "window_end": "2026-03-31",
+      "anonymized": false
+    },
+    {
+      "id": "sg-city",
+      "key": "city_brief",
+      "name": "城市命题创作",
+      "order": 2,
+      "window_start": "2026-04-07",
+      "window_end": "2026-05-17",
+      "anonymized": false
+    },
+    {
+      "id": "sg-blind",
+      "key": "blind_review",
+      "name": "盲评",
+      "order": 3,
+      "window_start": "2026-05-25",
+      "window_end": "2026-06-14",
+      "anonymized": true
+    },
+    {
+      "id": "sg-showcase",
+      "key": "showcase",
+      "name": "城市嘉年华展映",
+      "order": 4,
+      "window_start": "2026-07-04",
+      "window_end": "2026-07-12",
+      "anonymized": false
+    },
+    {
+      "id": "sg-incubation",
+      "key": "incubation",
+      "name": "创业孵化",
+      "order": 5,
+      "window_start": "2026-08-01",
+      "window_end": "2027-01-31",
+      "anonymized": false
+    }
+  ],
+  "channels": [
+    {
+      "id": "ch-class",
+      "name": "课堂展映",
+      "kind": "课堂展映",
+      "purposes": [
+        "课堂教学"
+      ],
+      "regions": [
+        "CN"
+      ],
+      "commercial": false,
+      "requires_anonymity": false
+    },
+    {
+      "id": "ch-carnival",
+      "name": "城市嘉年华",
+      "kind": "城市嘉年华",
+      "purposes": [
+        "非商业展映"
+      ],
+      "regions": [
+        "CN"
+      ],
+      "commercial": false,
+      "requires_anonymity": false
+    },
+    {
+      "id": "ch-job",
+      "name": "就业对接",
+      "kind": "就业对接",
+      "purposes": [
+        "招聘评审"
+      ],
+      "regions": [
+        "CN"
+      ],
+      "commercial": false,
+      "requires_anonymity": false
+    },
+    {
+      "id": "ch-promo",
+      "name": "商业推广投放",
+      "kind": "商业推广",
+      "purposes": [
+        "商业推广"
+      ],
+      "regions": [
+        "CN"
+      ],
+      "commercial": true,
+      "requires_anonymity": false
+    },
+    {
+      "id": "ch-road",
+      "name": "孵化路演",
+      "kind": "孵化路演",
+      "purposes": [
+        "融资路演"
+      ],
+      "regions": [
+        "CN"
+      ],
+      "commercial": false,
+      "requires_anonymity": false
+    },
+    {
+      "id": "ch-festival",
+      "name": "国内影展投递",
+      "kind": "影展投递",
+      "purposes": [
+        "影展参评"
+      ],
+      "regions": [
+        "CN"
+      ],
+      "commercial": false,
+      "requires_anonymity": true
+    },
+    {
+      "id": "ch-overseas",
+      "name": "海外影展投递",
+      "kind": "影展投递",
+      "purposes": [
+        "影展参评"
+      ],
+      "regions": [
+        "US"
+      ],
+      "commercial": false,
+      "requires_anonymity": true
+    }
+  ],
+  "awards": [
+    {
+      "id": "aw-01",
+      "name": "盲评优秀作品（虚构）",
+      "work_id": "wk-08",
+      "stage_id": "sg-blind",
+      "won_on": "2026-06-20",
+      "license_scope_note": "获奖只带来展映荣誉与嘉年华入围资格；不自动把课堂/非商业许可扩展为商业推广，商业投放须按新渠道逐项补授权。"
+    }
+  ]
+}
