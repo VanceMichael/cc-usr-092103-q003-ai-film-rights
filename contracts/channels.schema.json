@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "展示与对接渠道",
+  "type": "object",
+  "required": ["domain", "kind", "version", "channels"],
+  "properties": {
+    "domain": { "const": "ai-film-rights" },
+    "kind": { "const": "channels" },
+    "version": { "type": "integer", "minimum": 1 },
+    "channels": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "kind", "name", "purpose", "territories", "audience", "allowed_stages"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^ch-" },
+          "kind": { "enum": ["carnival_screening", "job_matching", "commercial_promo", "classroom"] },
+          "name": { "type": "string", "minLength": 1 },
+          "purpose": { "enum": ["classroom", "festival", "job_matching", "commercial"] },
+          "territories": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "audience": { "enum": ["public", "restricted", "internal"] },
+          "allowed_stages": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "enum": ["training", "city_brief", "blind_review", "screening", "incubation"] }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

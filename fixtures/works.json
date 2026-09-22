@@ -1,0 +1,195 @@
+{
+  "domain": "ai-film-rights",
+  "kind": "works",
+  "version": 1,
+  "works": [
+    { "id": "work-lantern", "team_id": "team-01", "title": "《渡口灯影》", "stage": "screening", "award": null },
+    { "id": "work-neon", "team_id": "team-02", "title": "《霓虹样本》", "stage": "screening", "award": null },
+    { "id": "work-river", "team_id": "team-03", "title": "《旧城河》", "stage": "screening", "award": { "name": "城市命题金奖", "granted_at": "2026-07-10" } },
+    { "id": "work-forest", "team_id": "team-04", "title": "《苔径》", "stage": "screening", "award": null },
+    { "id": "work-harbor", "team_id": "team-05", "title": "《港声》", "stage": "screening", "award": null },
+    { "id": "work-echo", "team_id": "team-06", "title": "《回声巷》", "stage": "screening", "award": null },
+    { "id": "work-mirror", "team_id": "team-07", "title": "《镜像练习》", "stage": "screening", "award": null },
+    { "id": "work-ember", "team_id": "team-08", "title": "《余烬》", "stage": "screening", "award": null }
+  ],
+  "versions": [
+    {
+      "id": "ver-l1", "work_id": "work-lantern", "parent_id": null, "seq": 1,
+      "created_by": "stu-001", "created_at": "2026-03-05", "visibility": "internal",
+      "asset_uses": [
+        { "asset_id": "asset-train-city", "role": "training" },
+        { "asset_id": "asset-footage-dock", "role": "footage" }
+      ]
+    },
+    {
+      "id": "ver-l2", "work_id": "work-lantern", "parent_id": "ver-l1", "seq": 2,
+      "created_by": "stu-002", "created_at": "2026-05-12", "visibility": "internal",
+      "asset_uses": [
+        { "asset_id": "asset-ai-actor-full", "role": "cast" },
+        { "asset_id": "asset-music-tide", "role": "soundtrack" }
+      ]
+    },
+    {
+      "id": "ver-l3", "work_id": "work-lantern", "parent_id": "ver-l2", "seq": 3,
+      "created_by": "stu-001", "created_at": "2026-08-20", "visibility": "public",
+      "asset_uses": []
+    },
+    {
+      "id": "ver-n1", "work_id": "work-neon", "parent_id": null, "seq": 1,
+      "created_by": "stu-004", "created_at": "2026-04-02", "visibility": "internal",
+      "asset_uses": [
+        { "asset_id": "asset-ai-actor-full", "role": "cast" }
+      ]
+    },
+    {
+      "id": "ver-n2", "work_id": "work-neon", "parent_id": "ver-n1", "seq": 2,
+      "created_by": "stu-005", "created_at": "2026-06-15", "visibility": "public",
+      "asset_uses": [
+        { "asset_id": "asset-music-neon", "role": "soundtrack" }
+      ]
+    },
+    {
+      "id": "ver-r1", "work_id": "work-river", "parent_id": null, "seq": 1,
+      "created_by": "stu-007", "created_at": "2026-04-20", "visibility": "internal",
+      "asset_uses": [
+        { "asset_id": "asset-ai-actor-edu", "role": "cast" }
+      ]
+    },
+    {
+      "id": "ver-r2", "work_id": "work-river", "parent_id": "ver-r1", "seq": 2,
+      "created_by": "stu-008", "created_at": "2026-06-30", "visibility": "public",
+      "asset_uses": [
+        { "asset_id": "asset-music-tide", "role": "soundtrack" }
+      ]
+    },
+    {
+      "id": "ver-f1", "work_id": "work-forest", "parent_id": null, "seq": 1,
+      "created_by": "stu-010", "created_at": "2026-03-18", "visibility": "internal",
+      "asset_uses": [
+        { "asset_id": "asset-train-forest", "role": "training" }
+      ]
+    },
+    {
+      "id": "ver-f2", "work_id": "work-forest", "parent_id": "ver-f1", "seq": 2,
+      "created_by": "stu-011", "created_at": "2026-07-02", "visibility": "public",
+      "asset_uses": [
+        { "asset_id": "asset-ai-actor-full", "role": "cast" }
+      ]
+    },
+    {
+      "id": "ver-h1", "work_id": "work-harbor", "parent_id": null, "seq": 1,
+      "created_by": "stu-013", "created_at": "2026-04-25", "visibility": "internal",
+      "asset_uses": [
+        { "asset_id": "asset-footage-harbor", "role": "footage" }
+      ]
+    },
+    {
+      "id": "ver-h2", "work_id": "work-harbor", "parent_id": "ver-h1", "seq": 2,
+      "created_by": "stu-014", "created_at": "2026-06-28", "visibility": "public",
+      "asset_uses": [
+        { "asset_id": "asset-music-horizon", "role": "soundtrack" }
+      ]
+    },
+    {
+      "id": "ver-e1", "work_id": "work-echo", "parent_id": null, "seq": 1,
+      "created_by": "stu-016", "created_at": "2026-05-02", "visibility": "internal",
+      "asset_uses": [
+        { "asset_id": "asset-footage-alley", "role": "footage" }
+      ]
+    },
+    {
+      "id": "ver-e2", "work_id": "work-echo", "parent_id": "ver-e1", "seq": 2,
+      "created_by": "stu-017", "created_at": "2026-08-30", "visibility": "public",
+      "asset_uses": [
+        { "asset_id": "asset-ai-actor-full", "role": "cast" }
+      ]
+    },
+    {
+      "id": "ver-m1", "work_id": "work-mirror", "parent_id": null, "seq": 1,
+      "created_by": "stu-019", "created_at": "2026-03-10", "visibility": "internal",
+      "asset_uses": [
+        { "asset_id": "asset-music-dup-1", "role": "soundtrack" }
+      ]
+    },
+    {
+      "id": "ver-m2", "work_id": "work-mirror", "parent_id": "ver-m1", "seq": 2,
+      "created_by": "stu-020", "created_at": "2026-05-08", "visibility": "internal",
+      "asset_uses": [
+        { "asset_id": "asset-ai-actor-full", "role": "cast" }
+      ]
+    },
+    {
+      "id": "ver-m3", "work_id": "work-mirror", "parent_id": "ver-m2", "seq": 3,
+      "created_by": "stu-019", "created_at": "2026-07-15", "visibility": "public",
+      "asset_uses": [
+        { "asset_id": "asset-music-dup-2", "role": "soundtrack" }
+      ]
+    },
+    {
+      "id": "ver-m3b", "work_id": "work-mirror", "parent_id": "ver-m2", "seq": 3,
+      "created_by": "stu-021", "created_at": "2026-08-05", "visibility": "internal",
+      "asset_uses": [
+        { "asset_id": "asset-train-city", "role": "training" }
+      ]
+    },
+    {
+      "id": "ver-b1", "work_id": "work-ember", "parent_id": null, "seq": 1,
+      "created_by": "stu-022", "created_at": "2026-04-12", "visibility": "internal",
+      "asset_uses": [
+        { "asset_id": "asset-music-tide", "role": "soundtrack" }
+      ]
+    },
+    {
+      "id": "ver-b2", "work_id": "work-ember", "parent_id": "ver-b1", "seq": 2,
+      "created_by": "stu-023", "created_at": "2026-07-20", "visibility": "public",
+      "asset_uses": [
+        { "asset_id": "asset-ai-extra", "role": "cast" }
+      ]
+    }
+  ],
+  "declarations": [
+    { "id": "decl-l1", "version_id": "ver-l1", "declared_by": "stu-001", "declared_at": "2026-03-05", "asset_ids": ["asset-train-city", "asset-footage-dock"] },
+    { "id": "decl-l2", "version_id": "ver-l2", "declared_by": "stu-002", "declared_at": "2026-05-12", "asset_ids": ["asset-ai-actor-full", "asset-music-tide"] },
+    { "id": "decl-l3", "version_id": "ver-l3", "declared_by": "stu-001", "declared_at": "2026-08-20", "asset_ids": [] },
+    { "id": "decl-n1", "version_id": "ver-n1", "declared_by": "stu-004", "declared_at": "2026-04-02", "asset_ids": ["asset-ai-actor-full"] },
+    { "id": "decl-n2", "version_id": "ver-n2", "declared_by": "stu-005", "declared_at": "2026-06-15", "asset_ids": ["asset-music-neon"] },
+    { "id": "decl-r1", "version_id": "ver-r1", "declared_by": "stu-007", "declared_at": "2026-04-20", "asset_ids": ["asset-ai-actor-edu"] },
+    { "id": "decl-r2", "version_id": "ver-r2", "declared_by": "stu-008", "declared_at": "2026-06-30", "asset_ids": ["asset-music-tide"] },
+    { "id": "decl-f1", "version_id": "ver-f1", "declared_by": "stu-010", "declared_at": "2026-03-18", "asset_ids": ["asset-train-forest"] },
+    { "id": "decl-f2", "version_id": "ver-f2", "declared_by": "stu-011", "declared_at": "2026-07-02", "asset_ids": ["asset-ai-actor-full"] },
+    { "id": "decl-h1", "version_id": "ver-h1", "declared_by": "stu-013", "declared_at": "2026-04-25", "asset_ids": ["asset-footage-harbor"] },
+    { "id": "decl-h2", "version_id": "ver-h2", "declared_by": "stu-014", "declared_at": "2026-06-28", "asset_ids": ["asset-music-horizon"] },
+    { "id": "decl-e1", "version_id": "ver-e1", "declared_by": "stu-016", "declared_at": "2026-05-02", "asset_ids": ["asset-footage-alley"] },
+    { "id": "decl-e2", "version_id": "ver-e2", "declared_by": "stu-017", "declared_at": "2026-08-30", "asset_ids": ["asset-ai-actor-full"] },
+    { "id": "decl-m1", "version_id": "ver-m1", "declared_by": "stu-019", "declared_at": "2026-03-10", "asset_ids": ["asset-music-dup-1"] },
+    { "id": "decl-m2", "version_id": "ver-m2", "declared_by": "stu-020", "declared_at": "2026-05-08", "asset_ids": ["asset-ai-actor-full"] },
+    { "id": "decl-m3", "version_id": "ver-m3", "declared_by": "stu-019", "declared_at": "2026-07-15", "asset_ids": ["asset-music-dup-2"] },
+    { "id": "decl-m3b", "version_id": "ver-m3b", "declared_by": "stu-021", "declared_at": "2026-08-05", "asset_ids": ["asset-train-city"] },
+    { "id": "decl-b1", "version_id": "ver-b1", "declared_by": "stu-022", "declared_at": "2026-04-12", "asset_ids": ["asset-music-tide"] },
+    { "id": "decl-b2", "version_id": "ver-b2", "declared_by": "stu-023", "declared_at": "2026-07-20", "asset_ids": [] }
+  ],
+  "contributions": [
+    { "student_id": "stu-001", "version_id": "ver-l1", "role": "导演", "hours": 40, "recorded_at": "2026-03-05" },
+    { "student_id": "stu-003", "version_id": "ver-l1", "role": "摄影", "hours": 18, "recorded_at": "2026-03-06" },
+    { "student_id": "stu-001", "version_id": "ver-l2", "role": "导演", "hours": 30, "recorded_at": "2026-05-12" },
+    { "student_id": "stu-002", "version_id": "ver-l2", "role": "剪辑", "hours": 22, "recorded_at": "2026-05-12" },
+    { "student_id": "stu-001", "version_id": "ver-l3", "role": "导演", "hours": 12, "recorded_at": "2026-08-20" },
+    { "student_id": "stu-002", "version_id": "ver-l3", "role": "剪辑", "hours": 25, "recorded_at": "2026-08-20" },
+    { "student_id": "stu-004", "version_id": "ver-n1", "role": "导演", "hours": 26, "recorded_at": "2026-04-02" },
+    { "student_id": "stu-005", "version_id": "ver-n2", "role": "声音设计", "hours": 15, "recorded_at": "2026-06-15" },
+    { "student_id": "stu-007", "version_id": "ver-r1", "role": "导演", "hours": 28, "recorded_at": "2026-04-20" },
+    { "student_id": "stu-008", "version_id": "ver-r2", "role": "剪辑", "hours": 16, "recorded_at": "2026-06-30" },
+    { "student_id": "stu-010", "version_id": "ver-f1", "role": "导演", "hours": 20, "recorded_at": "2026-03-18" },
+    { "student_id": "stu-011", "version_id": "ver-f2", "role": "视效", "hours": 19, "recorded_at": "2026-07-02" },
+    { "student_id": "stu-013", "version_id": "ver-h1", "role": "导演", "hours": 24, "recorded_at": "2026-04-25" },
+    { "student_id": "stu-014", "version_id": "ver-h2", "role": "声音设计", "hours": 14, "recorded_at": "2026-06-28" },
+    { "student_id": "stu-016", "version_id": "ver-e1", "role": "导演", "hours": 22, "recorded_at": "2026-05-02" },
+    { "student_id": "stu-017", "version_id": "ver-e2", "role": "剪辑", "hours": 17, "recorded_at": "2026-08-30" },
+    { "student_id": "stu-019", "version_id": "ver-m1", "role": "导演", "hours": 18, "recorded_at": "2026-03-10" },
+    { "student_id": "stu-020", "version_id": "ver-m2", "role": "视效", "hours": 21, "recorded_at": "2026-05-08" },
+    { "student_id": "stu-019", "version_id": "ver-m3", "role": "导演", "hours": 9, "recorded_at": "2026-07-15" },
+    { "student_id": "stu-021", "version_id": "ver-m3b", "role": "数据标注", "hours": 11, "recorded_at": "2026-08-05" },
+    { "student_id": "stu-022", "version_id": "ver-b1", "role": "导演", "hours": 16, "recorded_at": "2026-04-12" },
+    { "student_id": "stu-023", "version_id": "ver-b2", "role": "剪辑", "hours": 13, "recorded_at": "2026-07-20" }
+  ]
+}

@@ -1,0 +1,1206 @@
+{
+  "domain": "ai-film-rights",
+  "kind": "roster",
+  "version": 1,
+  "generated_at": "2026-09-22",
+  "stages": [
+    "training",
+    "city_brief",
+    "blind_review",
+    "screening",
+    "incubation"
+  ],
+  "students": [
+    {
+      "id": "stu-001",
+      "name": "林望舒",
+      "major": "导演",
+      "institution": "临港艺术学院",
+      "team_id": "team-01",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-002",
+      "name": "陈既白",
+      "major": "编剧",
+      "institution": "北屿理工大学",
+      "team_id": "team-01",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-003",
+      "name": "苏听澜",
+      "major": "摄影",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-01",
+      "status": "withdrawn",
+      "enrolled_at": "2026-02-20",
+      "withdrawn_at": "2026-08-01"
+    },
+    {
+      "id": "stu-004",
+      "name": "叶照眠",
+      "major": "编剧",
+      "institution": "临港艺术学院",
+      "team_id": "team-02",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-005",
+      "name": "沈叙白",
+      "major": "摄影",
+      "institution": "北屿理工大学",
+      "team_id": "team-02",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-006",
+      "name": "顾栖迟",
+      "major": "录音",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-02",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-007",
+      "name": "江清晏",
+      "major": "摄影",
+      "institution": "临港艺术学院",
+      "team_id": "team-03",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-008",
+      "name": "周星垂",
+      "major": "录音",
+      "institution": "北屿理工大学",
+      "team_id": "team-03",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-009",
+      "name": "吴野阔",
+      "major": "动画",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-03",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-010",
+      "name": "郑云舟",
+      "major": "录音",
+      "institution": "临港艺术学院",
+      "team_id": "team-04",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-011",
+      "name": "王雨眠",
+      "major": "动画",
+      "institution": "北屿理工大学",
+      "team_id": "team-04",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-012",
+      "name": "李知夏",
+      "major": "表演",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-04",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-013",
+      "name": "张立冬",
+      "major": "动画",
+      "institution": "临港艺术学院",
+      "team_id": "team-05",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-014",
+      "name": "刘惊蛰",
+      "major": "表演",
+      "institution": "北屿理工大学",
+      "team_id": "team-05",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-015",
+      "name": "杨谷雨",
+      "major": "美术",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-05",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-016",
+      "name": "黄白露",
+      "major": "表演",
+      "institution": "临港艺术学院",
+      "team_id": "team-06",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-017",
+      "name": "赵霜降",
+      "major": "美术",
+      "institution": "北屿理工大学",
+      "team_id": "team-06",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-018",
+      "name": "许小雪",
+      "major": "计算机",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-06",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-019",
+      "name": "邓冬至",
+      "major": "美术",
+      "institution": "临港艺术学院",
+      "team_id": "team-07",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-020",
+      "name": "韩夏至",
+      "major": "计算机",
+      "institution": "北屿理工大学",
+      "team_id": "team-07",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-021",
+      "name": "曹春分",
+      "major": "音乐",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-07",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-022",
+      "name": "曾秋分",
+      "major": "计算机",
+      "institution": "临港艺术学院",
+      "team_id": "team-08",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-023",
+      "name": "彭清明",
+      "major": "音乐",
+      "institution": "北屿理工大学",
+      "team_id": "team-08",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-024",
+      "name": "萧芒种",
+      "major": "制片",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-08",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-025",
+      "name": "蔡小满",
+      "major": "音乐",
+      "institution": "临港艺术学院",
+      "team_id": "team-09",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-026",
+      "name": "潘大暑",
+      "major": "制片",
+      "institution": "北屿理工大学",
+      "team_id": "team-09",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-027",
+      "name": "袁处暑",
+      "major": "导演",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-09",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-028",
+      "name": "董寒露",
+      "major": "制片",
+      "institution": "临港艺术学院",
+      "team_id": "team-10",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-029",
+      "name": "余立秋",
+      "major": "导演",
+      "institution": "北屿理工大学",
+      "team_id": "team-10",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-030",
+      "name": "杜立春",
+      "major": "编剧",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-10",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-031",
+      "name": "程雨水",
+      "major": "导演",
+      "institution": "临港艺术学院",
+      "team_id": "team-11",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-032",
+      "name": "陆小寒",
+      "major": "编剧",
+      "institution": "北屿理工大学",
+      "team_id": "team-11",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-033",
+      "name": "侯小暑",
+      "major": "摄影",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-11",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-034",
+      "name": "孟沐阳",
+      "major": "编剧",
+      "institution": "临港艺术学院",
+      "team_id": "team-12",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-035",
+      "name": "龙疏影",
+      "major": "摄影",
+      "institution": "北屿理工大学",
+      "team_id": "team-12",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-036",
+      "name": "段横舟",
+      "major": "录音",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-12",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-037",
+      "name": "钱远山",
+      "major": "摄影",
+      "institution": "临港艺术学院",
+      "team_id": "team-13",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-038",
+      "name": "汤近水",
+      "major": "录音",
+      "institution": "北屿理工大学",
+      "team_id": "team-13",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-039",
+      "name": "尹朝歌",
+      "major": "动画",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-13",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-040",
+      "name": "黎拾遗",
+      "major": "录音",
+      "institution": "临港艺术学院",
+      "team_id": "team-14",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-041",
+      "name": "易望舒",
+      "major": "动画",
+      "institution": "北屿理工大学",
+      "team_id": "team-14",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-042",
+      "name": "常既白",
+      "major": "表演",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-14",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-043",
+      "name": "武听澜",
+      "major": "动画",
+      "institution": "临港艺术学院",
+      "team_id": "team-15",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-044",
+      "name": "乔照眠",
+      "major": "表演",
+      "institution": "北屿理工大学",
+      "team_id": "team-15",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-045",
+      "name": "贺叙白",
+      "major": "美术",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-15",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-046",
+      "name": "赖栖迟",
+      "major": "表演",
+      "institution": "临港艺术学院",
+      "team_id": "team-16",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-047",
+      "name": "龚清晏",
+      "major": "美术",
+      "institution": "北屿理工大学",
+      "team_id": "team-16",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-048",
+      "name": "文星垂",
+      "major": "计算机",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-16",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-049",
+      "name": "庞野阔",
+      "major": "美术",
+      "institution": "临港艺术学院",
+      "team_id": "team-17",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-050",
+      "name": "樊云舟",
+      "major": "计算机",
+      "institution": "北屿理工大学",
+      "team_id": "team-17",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-051",
+      "name": "兰雨眠",
+      "major": "音乐",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-17",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-052",
+      "name": "殷知夏",
+      "major": "计算机",
+      "institution": "临港艺术学院",
+      "team_id": "team-18",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-053",
+      "name": "施立冬",
+      "major": "音乐",
+      "institution": "北屿理工大学",
+      "team_id": "team-18",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-054",
+      "name": "陶惊蛰",
+      "major": "制片",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-18",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-055",
+      "name": "洪谷雨",
+      "major": "音乐",
+      "institution": "临港艺术学院",
+      "team_id": "team-19",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-056",
+      "name": "翟白露",
+      "major": "制片",
+      "institution": "北屿理工大学",
+      "team_id": "team-19",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-057",
+      "name": "安霜降",
+      "major": "制片",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-20",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-058",
+      "name": "颜小雪",
+      "major": "导演",
+      "institution": "临港艺术学院",
+      "team_id": "team-20",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-059",
+      "name": "倪冬至",
+      "major": "导演",
+      "institution": "北屿理工大学",
+      "team_id": "team-21",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-060",
+      "name": "严夏至",
+      "major": "编剧",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-21",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-061",
+      "name": "林春分",
+      "major": "编剧",
+      "institution": "临港艺术学院",
+      "team_id": "team-22",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-062",
+      "name": "陈秋分",
+      "major": "摄影",
+      "institution": "北屿理工大学",
+      "team_id": "team-22",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-063",
+      "name": "苏清明",
+      "major": "摄影",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-23",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-064",
+      "name": "叶芒种",
+      "major": "录音",
+      "institution": "临港艺术学院",
+      "team_id": "team-23",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-065",
+      "name": "沈小满",
+      "major": "录音",
+      "institution": "北屿理工大学",
+      "team_id": "team-24",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-066",
+      "name": "顾大暑",
+      "major": "动画",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-24",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-067",
+      "name": "江处暑",
+      "major": "动画",
+      "institution": "临港艺术学院",
+      "team_id": "team-25",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-068",
+      "name": "周寒露",
+      "major": "表演",
+      "institution": "北屿理工大学",
+      "team_id": "team-25",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-069",
+      "name": "吴立秋",
+      "major": "表演",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-26",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-070",
+      "name": "郑立春",
+      "major": "美术",
+      "institution": "临港艺术学院",
+      "team_id": "team-26",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-071",
+      "name": "王雨水",
+      "major": "美术",
+      "institution": "北屿理工大学",
+      "team_id": "team-27",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-072",
+      "name": "李小寒",
+      "major": "计算机",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-27",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-073",
+      "name": "张小暑",
+      "major": "计算机",
+      "institution": "临港艺术学院",
+      "team_id": "team-28",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-074",
+      "name": "刘沐阳",
+      "major": "音乐",
+      "institution": "北屿理工大学",
+      "team_id": "team-28",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-075",
+      "name": "杨疏影",
+      "major": "音乐",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-29",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-076",
+      "name": "黄横舟",
+      "major": "制片",
+      "institution": "临港艺术学院",
+      "team_id": "team-29",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-077",
+      "name": "赵远山",
+      "major": "制片",
+      "institution": "北屿理工大学",
+      "team_id": "team-30",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-078",
+      "name": "许近水",
+      "major": "导演",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-30",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-079",
+      "name": "邓朝歌",
+      "major": "导演",
+      "institution": "临港艺术学院",
+      "team_id": "team-31",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-080",
+      "name": "韩拾遗",
+      "major": "编剧",
+      "institution": "北屿理工大学",
+      "team_id": "team-31",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-081",
+      "name": "曹望舒",
+      "major": "编剧",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-32",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-082",
+      "name": "曾既白",
+      "major": "摄影",
+      "institution": "临港艺术学院",
+      "team_id": "team-32",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-083",
+      "name": "彭听澜",
+      "major": "摄影",
+      "institution": "北屿理工大学",
+      "team_id": "team-33",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    },
+    {
+      "id": "stu-084",
+      "name": "萧照眠",
+      "major": "录音",
+      "institution": "汀洲传媒职业学院",
+      "team_id": "team-33",
+      "status": "active",
+      "enrolled_at": "2026-02-20"
+    }
+  ],
+  "teams": [
+    {
+      "id": "team-01",
+      "name": "青屿组",
+      "member_ids": [
+        "stu-001",
+        "stu-002",
+        "stu-003"
+      ],
+      "majors": [
+        "导演",
+        "编剧",
+        "摄影"
+      ]
+    },
+    {
+      "id": "team-02",
+      "name": "白壤组",
+      "member_ids": [
+        "stu-004",
+        "stu-005",
+        "stu-006"
+      ],
+      "majors": [
+        "编剧",
+        "摄影",
+        "录音"
+      ]
+    },
+    {
+      "id": "team-03",
+      "name": "赤渚组",
+      "member_ids": [
+        "stu-007",
+        "stu-008",
+        "stu-009"
+      ],
+      "majors": [
+        "摄影",
+        "录音",
+        "动画"
+      ]
+    },
+    {
+      "id": "team-04",
+      "name": "玄潭组",
+      "member_ids": [
+        "stu-010",
+        "stu-011",
+        "stu-012"
+      ],
+      "majors": [
+        "录音",
+        "动画",
+        "表演"
+      ]
+    },
+    {
+      "id": "team-05",
+      "name": "汀澜组",
+      "member_ids": [
+        "stu-013",
+        "stu-014",
+        "stu-015"
+      ],
+      "majors": [
+        "动画",
+        "表演",
+        "美术"
+      ]
+    },
+    {
+      "id": "team-06",
+      "name": "屿汀组",
+      "member_ids": [
+        "stu-016",
+        "stu-017",
+        "stu-018"
+      ],
+      "majors": [
+        "表演",
+        "美术",
+        "计算机"
+      ]
+    },
+    {
+      "id": "team-07",
+      "name": "潮矶组",
+      "member_ids": [
+        "stu-019",
+        "stu-020",
+        "stu-021"
+      ],
+      "majors": [
+        "美术",
+        "计算机",
+        "音乐"
+      ]
+    },
+    {
+      "id": "team-08",
+      "name": "岸堤组",
+      "member_ids": [
+        "stu-022",
+        "stu-023",
+        "stu-024"
+      ],
+      "majors": [
+        "计算机",
+        "音乐",
+        "制片"
+      ]
+    },
+    {
+      "id": "team-09",
+      "name": "雾穹组",
+      "member_ids": [
+        "stu-025",
+        "stu-026",
+        "stu-027"
+      ],
+      "majors": [
+        "音乐",
+        "制片",
+        "导演"
+      ]
+    },
+    {
+      "id": "team-10",
+      "name": "曙浦组",
+      "member_ids": [
+        "stu-028",
+        "stu-029",
+        "stu-030"
+      ],
+      "majors": [
+        "制片",
+        "导演",
+        "编剧"
+      ]
+    },
+    {
+      "id": "team-11",
+      "name": "星屿组",
+      "member_ids": [
+        "stu-031",
+        "stu-032",
+        "stu-033"
+      ],
+      "majors": [
+        "导演",
+        "编剧",
+        "摄影"
+      ]
+    },
+    {
+      "id": "team-12",
+      "name": "溪壤组",
+      "member_ids": [
+        "stu-034",
+        "stu-035",
+        "stu-036"
+      ],
+      "majors": [
+        "编剧",
+        "摄影",
+        "录音"
+      ]
+    },
+    {
+      "id": "team-13",
+      "name": "岚渚组",
+      "member_ids": [
+        "stu-037",
+        "stu-038",
+        "stu-039"
+      ],
+      "majors": [
+        "摄影",
+        "录音",
+        "动画"
+      ]
+    },
+    {
+      "id": "team-14",
+      "name": "苇潭组",
+      "member_ids": [
+        "stu-040",
+        "stu-041",
+        "stu-042"
+      ],
+      "majors": [
+        "录音",
+        "动画",
+        "表演"
+      ]
+    },
+    {
+      "id": "team-15",
+      "name": "漾澜组",
+      "member_ids": [
+        "stu-043",
+        "stu-044",
+        "stu-045"
+      ],
+      "majors": [
+        "动画",
+        "表演",
+        "美术"
+      ]
+    },
+    {
+      "id": "team-16",
+      "name": "砾汀组",
+      "member_ids": [
+        "stu-046",
+        "stu-047",
+        "stu-048"
+      ],
+      "majors": [
+        "表演",
+        "美术",
+        "计算机"
+      ]
+    },
+    {
+      "id": "team-17",
+      "name": "翎矶组",
+      "member_ids": [
+        "stu-049",
+        "stu-050",
+        "stu-051"
+      ],
+      "majors": [
+        "美术",
+        "计算机",
+        "音乐"
+      ]
+    },
+    {
+      "id": "team-18",
+      "name": "珀堤组",
+      "member_ids": [
+        "stu-052",
+        "stu-053",
+        "stu-054"
+      ],
+      "majors": [
+        "计算机",
+        "音乐",
+        "制片"
+      ]
+    },
+    {
+      "id": "team-19",
+      "name": "樵穹组",
+      "member_ids": [
+        "stu-055",
+        "stu-056"
+      ],
+      "majors": [
+        "音乐",
+        "制片"
+      ]
+    },
+    {
+      "id": "team-20",
+      "name": "汐浦组",
+      "member_ids": [
+        "stu-057",
+        "stu-058"
+      ],
+      "majors": [
+        "制片",
+        "导演"
+      ]
+    },
+    {
+      "id": "team-21",
+      "name": "檬屿组",
+      "member_ids": [
+        "stu-059",
+        "stu-060"
+      ],
+      "majors": [
+        "导演",
+        "编剧"
+      ]
+    },
+    {
+      "id": "team-22",
+      "name": "梧壤组",
+      "member_ids": [
+        "stu-061",
+        "stu-062"
+      ],
+      "majors": [
+        "编剧",
+        "摄影"
+      ]
+    },
+    {
+      "id": "team-23",
+      "name": "霓渚组",
+      "member_ids": [
+        "stu-063",
+        "stu-064"
+      ],
+      "majors": [
+        "摄影",
+        "录音"
+      ]
+    },
+    {
+      "id": "team-24",
+      "name": "舷潭组",
+      "member_ids": [
+        "stu-065",
+        "stu-066"
+      ],
+      "majors": [
+        "录音",
+        "动画"
+      ]
+    },
+    {
+      "id": "team-25",
+      "name": "笛澜组",
+      "member_ids": [
+        "stu-067",
+        "stu-068"
+      ],
+      "majors": [
+        "动画",
+        "表演"
+      ]
+    },
+    {
+      "id": "team-26",
+      "name": "砚汀组",
+      "member_ids": [
+        "stu-069",
+        "stu-070"
+      ],
+      "majors": [
+        "表演",
+        "美术"
+      ]
+    },
+    {
+      "id": "team-27",
+      "name": "棱矶组",
+      "member_ids": [
+        "stu-071",
+        "stu-072"
+      ],
+      "majors": [
+        "美术",
+        "计算机"
+      ]
+    },
+    {
+      "id": "team-28",
+      "name": "藻堤组",
+      "member_ids": [
+        "stu-073",
+        "stu-074"
+      ],
+      "majors": [
+        "计算机",
+        "音乐"
+      ]
+    },
+    {
+      "id": "team-29",
+      "name": "鹭穹组",
+      "member_ids": [
+        "stu-075",
+        "stu-076"
+      ],
+      "majors": [
+        "音乐",
+        "制片"
+      ]
+    },
+    {
+      "id": "team-30",
+      "name": "栩浦组",
+      "member_ids": [
+        "stu-077",
+        "stu-078"
+      ],
+      "majors": [
+        "制片",
+        "导演"
+      ]
+    },
+    {
+      "id": "team-31",
+      "name": "燃屿组",
+      "member_ids": [
+        "stu-079",
+        "stu-080"
+      ],
+      "majors": [
+        "导演",
+        "编剧"
+      ]
+    },
+    {
+      "id": "team-32",
+      "name": "霁壤组",
+      "member_ids": [
+        "stu-081",
+        "stu-082"
+      ],
+      "majors": [
+        "编剧",
+        "摄影"
+      ]
+    },
+    {
+      "id": "team-33",
+      "name": "攸渚组",
+      "member_ids": [
+        "stu-083",
+        "stu-084"
+      ],
+      "majors": [
+        "摄影",
+        "录音"
+      ]
+    }
+  ]
+}

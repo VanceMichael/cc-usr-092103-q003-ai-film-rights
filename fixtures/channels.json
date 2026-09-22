@@ -1,0 +1,52 @@
+{
+  "domain": "ai-film-rights",
+  "kind": "channels",
+  "version": 1,
+  "channels": [
+    {
+      "id": "ch-carnival",
+      "kind": "carnival_screening",
+      "name": "嘉年华展映",
+      "purpose": "festival",
+      "territories": ["CN"],
+      "audience": "public",
+      "allowed_stages": ["screening", "incubation"]
+    },
+    {
+      "id": "ch-job",
+      "kind": "job_matching",
+      "name": "就业对接（境内）",
+      "purpose": "job_matching",
+      "territories": ["CN"],
+      "audience": "restricted",
+      "allowed_stages": ["screening", "incubation"]
+    },
+    {
+      "id": "ch-job-global",
+      "kind": "job_matching",
+      "name": "就业对接（海外）",
+      "purpose": "job_matching",
+      "territories": ["global"],
+      "audience": "restricted",
+      "allowed_stages": ["screening", "incubation"]
+    },
+    {
+      "id": "ch-commercial",
+      "kind": "commercial_promo",
+      "name": "商业推广",
+      "purpose": "commercial",
+      "territories": ["CN"],
+      "audience": "public",
+      "allowed_stages": ["incubation"]
+    },
+    {
+      "id": "ch-classroom",
+      "kind": "classroom",
+      "name": "课堂放映",
+      "purpose": "classroom",
+      "territories": ["campus"],
+      "audience": "internal",
+      "allowed_stages": ["training", "city_brief", "blind_review", "screening", "incubation"]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "domain": "ai-film-rights",
+  "kind": "assets",
+  "version": 1,
+  "assets": [
+    {
+      "id": "asset-train-city",
+      "kind": "training_data",
+      "title": "城市街景训练集 v3",
+      "hash": "sha256-train-city-01",
+      "license_id": "lic-training-ok",
+      "uploaded_by": "stu-001",
+      "uploaded_at": "2026-03-01",
+      "restricted": false
+    },
+    {
+      "id": "asset-train-forest",
+      "kind": "training_data",
+      "title": "林间光影训练集",
+      "hash": "sha256-train-forest-01",
+      "license_id": "lic-training-revoked",
+      "uploaded_by": "stu-010",
+      "uploaded_at": "2026-03-15",
+      "restricted": false
+    },
+    {
+      "id": "asset-ai-actor-full",
+      "kind": "ai_actor",
+      "title": "AI演员·标准角色包",
+      "hash": "sha256-actor-full-01",
+      "license_id": "lic-ai-actor-full",
+      "uploaded_by": "stu-001",
+      "uploaded_at": "2026-05-01",
+      "restricted": false
+    },
+    {
+      "id": "asset-ai-actor-edu",
+      "kind": "ai_actor",
+      "title": "AI演员·教育版角色",
+      "hash": "sha256-actor-edu-01",
+      "license_id": "lic-ai-actor-classroom",
+      "uploaded_by": "stu-007",
+      "uploaded_at": "2026-04-15",
+      "restricted": false
+    },
+    {
+      "id": "asset-ai-extra",
+      "kind": "ai_actor",
+      "title": "AI演员·客串角色",
+      "hash": "sha256-actor-extra-01",
+      "license_id": "lic-ai-actor-full",
+      "uploaded_by": "stu-023",
+      "uploaded_at": "2026-07-18",
+      "restricted": false
+    },
+    {
+      "id": "asset-music-tide",
+      "kind": "music",
+      "title": "配乐《潮信》",
+      "hash": "sha256-music-tide-01",
+      "license_id": "lic-music-festival",
+      "uploaded_by": "stu-002",
+      "uploaded_at": "2026-05-10",
+      "restricted": false
+    },
+    {
+      "id": "asset-music-neon",
+      "kind": "music",
+      "title": "配乐《霓虹夜行》",
+      "hash": "sha256-music-neon-01",
+      "license_id": "lic-music-expired",
+      "uploaded_by": "stu-005",
+      "uploaded_at": "2026-06-10",
+      "restricted": false
+    },
+    {
+      "id": "asset-music-horizon",
+      "kind": "music",
+      "title": "配乐《地平线》",
+      "hash": "sha256-music-horizon-01",
+      "license_id": "lic-music-global",
+      "uploaded_by": "stu-014",
+      "uploaded_at": "2026-06-20",
+      "restricted": false
+    },
+    {
+      "id": "asset-music-dup-1",
+      "kind": "music",
+      "title": "配乐《镜面》（首次上传）",
+      "hash": "sha256-music-mirror-01",
+      "license_id": "lic-music-dup",
+      "uploaded_by": "stu-019",
+      "uploaded_at": "2026-03-08",
+      "restricted": false
+    },
+    {
+      "id": "asset-music-dup-2",
+      "kind": "music",
+      "title": "配乐《镜面》（重复上传）",
+      "hash": "sha256-music-mirror-01",
+      "license_id": "lic-music-dup",
+      "uploaded_by": "stu-021",
+      "uploaded_at": "2026-07-14",
+      "restricted": false
+    },
+    {
+      "id": "asset-footage-dock",
+      "kind": "live_footage",
+      "title": "渡口实拍·黄昏",
+      "hash": "sha256-foot-dock-01",
+      "license_id": "lic-footage-cn",
+      "uploaded_by": "stu-002",
+      "uploaded_at": "2026-03-03",
+      "restricted": false
+    },
+    {
+      "id": "asset-footage-harbor",
+      "kind": "live_footage",
+      "title": "港口实拍·清晨",
+      "hash": "sha256-foot-harbor-01",
+      "license_id": "lic-footage-cn",
+      "uploaded_by": "stu-013",
+      "uploaded_at": "2026-04-22",
+      "restricted": false
+    },
+    {
+      "id": "asset-footage-alley",
+      "kind": "live_footage",
+      "title": "巷弄实拍·手持",
+      "hash": "sha256-foot-alley-01",
+      "license_id": "lic-footage-restricted",
+      "uploaded_by": "stu-016",
+      "uploaded_at": "2026-04-30",
+      "restricted": true,
+      "restriction_note": "含未清场路人肖像，仅限内部评审，不得进入公开版本"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "domain": "ai-film-rights",
+  "kind": "licenses",
+  "version": 1,
+  "licenses": [
+    {
+      "id": "lic-ai-actor-full",
+      "licensor": { "id": "org-xuxiang", "name": "虚像科技", "kind": "vendor" },
+      "purposes": ["classroom", "festival", "job_matching", "commercial"],
+      "territories": ["global"],
+      "term": { "start": "2026-01-01", "end": "2027-12-31" },
+      "revocation": { "revocable": true, "notice_days": 90, "status": "active", "revoked_at": null, "reason": null },
+      "notes": "AI演员标准角色包商业授权"
+    },
+    {
+      "id": "lic-ai-actor-classroom",
+      "licensor": { "id": "org-xuxiang-edu", "name": "虚像科技·教育授权", "kind": "vendor" },
+      "purposes": ["classroom", "festival"],
+      "territories": ["CN"],
+      "term": { "start": "2026-01-01", "end": "2026-12-31" },
+      "revocation": { "revocable": true, "notice_days": 30, "status": "active", "revoked_at": null, "reason": null },
+      "notes": "教育版AI演员：仅限课堂与展映，获奖或商用均不自动扩展"
+    },
+    {
+      "id": "lic-music-festival",
+      "licensor": { "id": "mus-linwanyin", "name": "林晚音", "kind": "musician" },
+      "purposes": ["classroom", "festival", "job_matching"],
+      "territories": ["CN"],
+      "term": { "start": "2026-02-01", "end": "2027-02-01" },
+      "revocation": { "revocable": true, "notice_days": 60, "status": "active", "revoked_at": null, "reason": null },
+      "notes": "配乐《潮信》非独家授权"
+    },
+    {
+      "id": "lic-music-global",
+      "licensor": { "id": "org-shenglang", "name": "声廊音乐库", "kind": "vendor" },
+      "purposes": ["classroom", "festival", "job_matching", "commercial"],
+      "territories": ["global"],
+      "term": { "start": "2026-01-01", "end": "2027-06-30" },
+      "revocation": { "revocable": true, "notice_days": 90, "status": "active", "revoked_at": null, "reason": null },
+      "notes": "配乐《地平线》全球全用途授权"
+    },
+    {
+      "id": "lic-music-expired",
+      "licensor": { "id": "mus-jiumatou", "name": "旧码头乐队", "kind": "musician" },
+      "purposes": ["classroom", "festival"],
+      "territories": ["CN"],
+      "term": { "start": "2025-09-01", "end": "2026-06-30" },
+      "revocation": { "revocable": true, "notice_days": 30, "status": "active", "revoked_at": null, "reason": null },
+      "notes": "配乐《霓虹夜行》授权已于 2026-06-30 届满，续约未签"
+    },
+    {
+      "id": "lic-music-dup",
+      "licensor": { "id": "org-jinghu", "name": "镜湖工作室", "kind": "vendor" },
+      "purposes": ["classroom", "festival", "job_matching"],
+      "territories": ["CN"],
+      "term": { "start": "2026-03-01", "end": "2027-03-01" },
+      "revocation": { "revocable": true, "notice_days": 30, "status": "active", "revoked_at": null, "reason": null },
+      "notes": "配乐《镜面》授权"
+    },
+    {
+      "id": "lic-training-ok",
+      "licensor": { "id": "data-openlens", "name": "开放影像数据集", "kind": "dataset" },
+      "purposes": ["classroom", "festival", "job_matching", "commercial"],
+      "territories": ["global"],
+      "term": { "start": "2026-01-01", "end": "2028-01-01" },
+      "revocation": { "revocable": true, "notice_days": 30, "status": "active", "revoked_at": null, "reason": null },
+      "notes": "城市街景训练集，权利链完整"
+    },
+    {
+      "id": "lic-training-revoked",
+      "licensor": { "id": "data-linjian", "name": "林间素材集", "kind": "dataset" },
+      "purposes": ["classroom", "festival", "job_matching", "commercial"],
+      "territories": ["global"],
+      "term": { "start": "2026-01-01", "end": "2027-12-31" },
+      "revocation": { "revocable": true, "notice_days": 30, "status": "revoked", "revoked_at": "2026-08-15", "reason": "数据集中发现未授权肖像，许可主体行使撤回权" },
+      "notes": "林间光影训练集，2026-08-15 起全渠道停用"
+    },
+    {
+      "id": "lic-footage-cn",
+      "licensor": { "id": "org-cityarchive", "name": "城市档案馆", "kind": "archive" },
+      "purposes": ["classroom", "festival", "job_matching"],
+      "territories": ["CN"],
+      "term": { "start": "2026-01-01", "end": "2027-06-30" },
+      "revocation": { "revocable": true, "notice_days": 60, "status": "active", "revoked_at": null, "reason": null },
+      "notes": "馆藏实拍片段，限境内使用"
+    },
+    {
+      "id": "lic-footage-restricted",
+      "licensor": { "id": "org-xiangkou", "name": "巷口影像社", "kind": "collective" },
+      "purposes": ["classroom", "festival", "job_matching"],
+      "territories": ["CN"],
+      "term": { "start": "2026-04-01", "end": "2027-04-01" },
+      "revocation": { "revocable": true, "notice_days": 30, "status": "active", "revoked_at": null, "reason": null },
+      "notes": "巷弄实拍素材，许可本身有效，但素材含未清场路人肖像，仅限内部评审使用"
+    }
+  ]
+}

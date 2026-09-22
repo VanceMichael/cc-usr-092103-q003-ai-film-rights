@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "素材登记",
+  "type": "object",
+  "required": ["domain", "kind", "version", "assets"],
+  "properties": {
+    "domain": { "const": "ai-film-rights" },
+    "kind": { "const": "assets" },
+    "version": { "type": "integer", "minimum": 1 },
+    "assets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "kind", "title", "hash", "license_id", "uploaded_by", "uploaded_at", "restricted"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^asset-" },
+          "kind": {
+            "enum": ["ai_actor", "music", "training_data", "live_footage"],
+            "description": "AI演员 / 音乐 / 训练素材 / 实拍片段"
+          },
+          "title": { "type": "string", "minLength": 1 },
+          "hash": { "type": "string", "minLength": 1, "description": "内容指纹，用于重复上传检测" },
+          "license_id": { "type": "string", "pattern": "^lic-" },
+          "uploaded_by": { "type": "string", "pattern": "^stu-\\d{3}$" },
+          "uploaded_at": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+          "restricted": { "type": "boolean", "description": "受限素材不得进入公开版本或公开渠道" },
+          "restriction_note": { "type": "string" }
+        },
+        "additionalProperties": false,
+        "if": { "properties": { "restricted": { "const": true } } },
+        "then": { "required": ["restriction_note"] }
+      }
+    }
+  },
+  "additionalProperties": false
+}
